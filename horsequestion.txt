@@ -1,0 +1,21 @@
+Required Dataset: horse
+1.perform a good cleaning on the dataset no option of 
+2.Plot a graph showing the percentage for the values under the column of age and note your observation
+3.plot a graph to show the percentage rate for the column of Pain also note your observation
+4.plot a graph to determine the observation between age and outcome
+5.drop hospital_number and determine the dependent variable and split the data into train and test with test size of 0.2
+
+
+MODULES TO IMPORT
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly.express as px
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.pipeline import Pipeline
+from sklearn.metrics import classification_report, confusion_matrix
